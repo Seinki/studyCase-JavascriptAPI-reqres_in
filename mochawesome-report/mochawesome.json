@@ -1,14 +1,14 @@
 {
   "stats": {
-    "suites": 5,
-    "tests": 8,
-    "passes": 8,
+    "suites": 6,
+    "tests": 9,
+    "passes": 9,
     "pending": 0,
     "failures": 0,
-    "start": "2023-10-24T14:32:10.340Z",
-    "end": "2023-10-24T14:32:12.886Z",
-    "duration": 2546,
-    "testsRegistered": 8,
+    "start": "2023-10-24T15:11:22.535Z",
+    "end": "2023-10-24T15:11:27.264Z",
+    "duration": 4729,
+    "testsRegistered": 9,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "393f8f2f-ccb2-4137-b043-eb8642ff9df9",
+      "uuid": "4203f9eb-dd3c-46ce-bb9a-c90c04e9ef95",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "7f6c0c5c-f1d6-4546-a23c-93f616a562a4",
+          "uuid": "fe1bf135-f0ae-4488-8f8b-85ddddfdbbb3",
           "title": "Chai Assert for get data all users",
           "fullFile": "C:\\Dev\\MySkill\\MySkill - Quality Assurance\\studyCase-JavascriptAPI-reqres_in\\test\\chaiAssert.js",
           "file": "\\test\\chaiAssert.js",
@@ -38,7 +38,7 @@
               "title": "response status equal to 200 ok",
               "fullTitle": "Chai Assert for get data all users response status equal to 200 ok",
               "timedOut": false,
-              "duration": 249,
+              "duration": 1311,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "// Check response status harus sama dengan 200\nexpect((await response).status).to.equal(200)",
               "err": {},
-              "uuid": "fcd91432-ad02-4e71-bc2f-148740731111",
-              "parentUUID": "7f6c0c5c-f1d6-4546-a23c-93f616a562a4",
+              "uuid": "44392f86-4ac2-41bf-81d0-38ff84c8bd5c",
+              "parentUUID": "fe1bf135-f0ae-4488-8f8b-85ddddfdbbb3",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "response body to haveOwnProperty",
               "fullTitle": "Chai Assert for get data all users response body to haveOwnProperty",
               "timedOut": false,
-              "duration": 2,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,27 +65,27 @@
               "context": null,
               "code": "// Expert dalam body response terdapat value 'message'\nexpect((await response).body).to.haveOwnProperty(`data`)",
               "err": {},
-              "uuid": "dd2c44e7-0a37-4281-a788-80289346832d",
-              "parentUUID": "7f6c0c5c-f1d6-4546-a23c-93f616a562a4",
+              "uuid": "c02cd17c-1385-4803-b5dc-39eab8464d56",
+              "parentUUID": "fe1bf135-f0ae-4488-8f8b-85ddddfdbbb3",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "fcd91432-ad02-4e71-bc2f-148740731111",
-            "dd2c44e7-0a37-4281-a788-80289346832d"
+            "44392f86-4ac2-41bf-81d0-38ff84c8bd5c",
+            "c02cd17c-1385-4803-b5dc-39eab8464d56"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 251,
+          "duration": 1312,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "19a82a14-b0fe-4922-9114-b562d2c6bfc8",
+          "uuid": "17e8900a-d264-4a1b-86ca-c0804abd89ca",
           "title": "Chai Assert for add new user",
           "fullFile": "C:\\Dev\\MySkill\\MySkill - Quality Assurance\\studyCase-JavascriptAPI-reqres_in\\test\\chaiAssert.js",
           "file": "\\test\\chaiAssert.js",
@@ -96,7 +96,7 @@
               "title": "response status equal to 201 ok",
               "fullTitle": "Chai Assert for add new user response status equal to 201 ok",
               "timedOut": false,
-              "duration": 1059,
+              "duration": 1107,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -105,8 +105,8 @@
               "context": null,
               "code": "// Check response status harus sama dengan 201\nexpect((await response).status).to.equal(201)",
               "err": {},
-              "uuid": "adcc597d-38a5-4abf-a14b-5fc5625f1d34",
-              "parentUUID": "19a82a14-b0fe-4922-9114-b562d2c6bfc8",
+              "uuid": "5b7c2fd6-289b-4da3-983c-05f3a13b35ea",
+              "parentUUID": "17e8900a-d264-4a1b-86ca-c0804abd89ca",
               "isHook": false,
               "skipped": false
             },
@@ -123,27 +123,27 @@
               "context": null,
               "code": "// Check response jika terdapat value\nexpect((await response).body)",
               "err": {},
-              "uuid": "6c25f983-35ac-4f7f-a13e-e8f359d8ee62",
-              "parentUUID": "19a82a14-b0fe-4922-9114-b562d2c6bfc8",
+              "uuid": "447f731c-a1dd-4e68-9881-e2aa635b9de4",
+              "parentUUID": "17e8900a-d264-4a1b-86ca-c0804abd89ca",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "adcc597d-38a5-4abf-a14b-5fc5625f1d34",
-            "6c25f983-35ac-4f7f-a13e-e8f359d8ee62"
+            "5b7c2fd6-289b-4da3-983c-05f3a13b35ea",
+            "447f731c-a1dd-4e68-9881-e2aa635b9de4"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1059,
+          "duration": 1107,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "aa2aec56-6aa0-4c9d-9b21-cdbb3b3f33c7",
+          "uuid": "3aa65f4c-8c7e-484a-8e74-7f0b059d0da6",
           "title": "Get request",
           "fullFile": "C:\\Dev\\MySkill\\MySkill - Quality Assurance\\studyCase-JavascriptAPI-reqres_in\\test\\getData.js",
           "file": "\\test\\getData.js",
@@ -154,7 +154,7 @@
               "title": "Find List User",
               "fullTitle": "Get request Find List User",
               "timedOut": false,
-              "duration": 109,
+              "duration": 111,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -163,26 +163,26 @@
               "context": null,
               "code": "const response = request(server())\n.get('api/users')\nconsole.log((await response).status)\nconsole.log((await response).body)",
               "err": {},
-              "uuid": "0b4bac09-f858-4802-ab76-65da63336965",
-              "parentUUID": "aa2aec56-6aa0-4c9d-9b21-cdbb3b3f33c7",
+              "uuid": "3a2635cf-5da5-48f7-875a-82beeac80417",
+              "parentUUID": "3aa65f4c-8c7e-484a-8e74-7f0b059d0da6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "0b4bac09-f858-4802-ab76-65da63336965"
+            "3a2635cf-5da5-48f7-875a-82beeac80417"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 109,
+          "duration": 111,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "91520e39-4cfb-4fcb-b5bc-35445b0dcd14",
+          "uuid": "d8023471-377b-4b78-b161-b1eb5faea9ed",
           "title": "App",
           "fullFile": "C:\\Dev\\MySkill\\MySkill - Quality Assurance\\studyCase-JavascriptAPI-reqres_in\\test\\helloWorld.js",
           "file": "\\test\\helloWorld.js",
@@ -193,7 +193,7 @@
               "title": "app should return welcome message",
               "fullTitle": "App app should return welcome message",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -202,8 +202,8 @@
               "context": null,
               "code": "assert.equal(app(), \"Hello World\")",
               "err": {},
-              "uuid": "1b5f5760-1656-4d14-a0ff-87bce34d8b2b",
-              "parentUUID": "91520e39-4cfb-4fcb-b5bc-35445b0dcd14",
+              "uuid": "66bad8d5-da59-4c19-8858-e3ced1b55c37",
+              "parentUUID": "d8023471-377b-4b78-b161-b1eb5faea9ed",
               "isHook": false,
               "skipped": false
             },
@@ -220,27 +220,27 @@
               "context": null,
               "code": "let response = app();\nassert.typeOf(response,'string')",
               "err": {},
-              "uuid": "25d34c14-f91f-405e-8f9b-d42192559b25",
-              "parentUUID": "91520e39-4cfb-4fcb-b5bc-35445b0dcd14",
+              "uuid": "2d79daf1-3645-49ab-9fea-409eb2904b85",
+              "parentUUID": "d8023471-377b-4b78-b161-b1eb5faea9ed",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "1b5f5760-1656-4d14-a0ff-87bce34d8b2b",
-            "25d34c14-f91f-405e-8f9b-d42192559b25"
+            "66bad8d5-da59-4c19-8858-e3ced1b55c37",
+            "2d79daf1-3645-49ab-9fea-409eb2904b85"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "d7ae3a45-5145-464e-9732-ad7ce9682d8b",
+          "uuid": "78902ce7-cdaf-49db-8dcb-cf462853aa00",
           "title": "Post Request for Create User",
           "fullFile": "C:\\Dev\\MySkill\\MySkill - Quality Assurance\\studyCase-JavascriptAPI-reqres_in\\test\\postDataUser.js",
           "file": "\\test\\postDataUser.js",
@@ -251,7 +251,7 @@
               "title": "Success create user",
               "fullTitle": "Post Request for Create User Success create user",
               "timedOut": false,
-              "duration": 1099,
+              "duration": 1076,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -260,20 +260,59 @@
               "context": null,
               "code": "const response = request(server()).post(\"api/users\").send(DATA.CREATE_USER_DATA);\nconsole.log((await response).status);\nconsole.log((await response).body);",
               "err": {},
-              "uuid": "10ea32c9-4ec3-4ec5-b87c-34c4eec93624",
-              "parentUUID": "d7ae3a45-5145-464e-9732-ad7ce9682d8b",
+              "uuid": "d3606824-d0b2-45fa-92ee-6beef03c5d70",
+              "parentUUID": "78902ce7-cdaf-49db-8dcb-cf462853aa00",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "10ea32c9-4ec3-4ec5-b87c-34c4eec93624"
+            "d3606824-d0b2-45fa-92ee-6beef03c5d70"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1099,
+          "duration": 1076,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "d688445d-2959-490a-a282-b00a9dc7f39d",
+          "title": "Registration for new user",
+          "fullFile": "C:\\Dev\\MySkill\\MySkill - Quality Assurance\\studyCase-JavascriptAPI-reqres_in\\test\\postRegister.js",
+          "file": "\\test\\postRegister.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Success registration",
+              "fullTitle": "Registration for new user Success registration",
+              "timedOut": false,
+              "duration": 1089,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const response = request(server()).post('api/register').send({\n  \"email\": \"seinki@mailsac.com\",\n  \"password\": \"seinki123\"\n})\nconsole.log((await response).status);\nconsole.log((await response).body);",
+              "err": {},
+              "uuid": "c63c874c-1cc6-47cc-94ac-c5dfd22467e9",
+              "parentUUID": "d688445d-2959-490a-a282-b00a9dc7f39d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c63c874c-1cc6-47cc-94ac-c5dfd22467e9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1089,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
