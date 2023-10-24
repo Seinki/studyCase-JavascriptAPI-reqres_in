@@ -1,6 +1,5 @@
 const request = require('supertest');
 const server = require("../env");
-const DATA = require('../data/userData')
 
 describe('Registration for new user', () => {
   it('Success registration', async () => {
