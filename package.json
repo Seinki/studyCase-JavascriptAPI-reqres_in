@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "name": "studycase-javascriptapi-reqres_in",
+  "description": "Study Case Javascript API for https://reqres.in/",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seinki/studyCase-JavascriptAPI-reqres_in.git"
+  },
+  "author": "seinki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seinki/studyCase-JavascriptAPI-reqres_in/issues"
+  },
+  "homepage": "https://github.com/Seinki/studyCase-JavascriptAPI-reqres_in#readme"
+}
