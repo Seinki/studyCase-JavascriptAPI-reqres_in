@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "reporting": "mocha --reporter mochawesome"
   },
   "repository": {
     "type": "git",
